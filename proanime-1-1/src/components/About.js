@@ -5,7 +5,7 @@ export default class About extends Component {
     render() {
         return (
             <div>
-                <Image src="assets/about-header.jpg" className="header-image" />
+                <Image src="../assets/about-header.jpeg" className="header-image" />
                 <Grid>
                     <Col xs={12} sm={12} smOffset={2}>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et eros egestas erat cursus imperdiet. Praesent metus metus, tempor nec odio eget, pretium facilisis mi. Vivamus facilisis dui et viverra elementum. Praesent ut pellentesque tortor. Sed eleifend tellus magna, at eleifend mauris faucibus eu. Integer tristique vehicula porta. Donec maximus ultrices neque nec volutpat. Sed eleifend gravida dolor non imperdiet. Suspendisse eget ligula suscipit, lacinia velit quis, viverra justo. Praesent vitae tristique eros. Etiam et velit sem. Etiam tincidunt vulputate turpis, non convallis erat ultricies ut. Etiam sit amet volutpat ipsum.
