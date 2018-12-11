@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom';
-import { Jumbotron, Grid, Row, Col, Image, Button } from 'react-bootstrap';
+//import { Link } from 'react-router-dom';
+import { Jumbotron, Grid, Row, Col } from 'react-bootstrap';
 
 
 export default class Home extends Component {
@@ -12,7 +12,7 @@ export default class Home extends Component {
                     <p>Made with React and caffeine</p>
                 </Jumbotron>
                 <Row className="show-grid text-center">
-                    <Col xs={12} sm={4} className="main-wrapper">
+                    <Col xs={12} sm={12} className="main-wrapper">
                     <h3>Welcome to your imagination</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et eros egestas erat cursus imperdiet. Praesent metus metus, tempor nec odio eget, pretium facilisis mi. Vivamus facilisis dui et viverra elementum. Praesent ut pellentesque tortor. Sed eleifend tellus magna, at eleifend mauris faucibus eu. Integer tristique vehicula porta. Donec maximus ultrices neque nec volutpat. Sed eleifend gravida dolor non imperdiet. Suspendisse eget ligula suscipit, lacinia velit quis, viverra justo. Praesent vitae tristique eros. Etiam et velit sem. Etiam tincidunt vulputate turpis, non convallis erat ultricies ut. Etiam sit amet volutpat ipsum.
 
